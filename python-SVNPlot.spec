@@ -30,7 +30,7 @@ repository data.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__python} python setup.py install \
+%{__python} setup.py install \
 	--root=$RPM_BUILD_ROOT \
 	--optimize=2
 
