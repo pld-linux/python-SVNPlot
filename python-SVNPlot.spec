@@ -12,6 +12,7 @@ Source0:	http://svnplot.googlecode.com/files/%{module}-%{version}.zip
 URL:		http://code.google.com/p/svnplot/
 BuildRequires:	python-devel
 BuildRequires:	rpm-pythonprov
+BuildRequires:	unzip
 %pyrequires_eq	python
 Requires:	python-matplotlib
 Requires:	python-pysvn
