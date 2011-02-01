@@ -3,12 +3,12 @@
 %define	module	SVNPlot
 Summary:	Python module to generate graphs and statistics from Subversion repository data
 Name:		python-%{module}
-Version:	0.6.1
-Release:	0.1
+Version:	0.7.3
+Release:	1
 License:	BSD
 Group:		Development/Languages/Python
 Source0:	http://svnplot.googlecode.com/files/%{module}-%{version}.zip
-# Source0-md5:	1e1cb3c3d4841681ab3ccb885244875d
+# Source0-md5:	8ccd83fd46e238478495ec66876ea83f
 URL:		http://code.google.com/p/svnplot/
 BuildRequires:	python-devel
 BuildRequires:	rpm-pythonprov
