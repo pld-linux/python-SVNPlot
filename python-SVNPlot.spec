@@ -16,6 +16,7 @@ BuildRequires:	unzip
 %pyrequires_eq	python
 Requires:	python-matplotlib
 Requires:	python-pysvn
+Requires:	python-modules-sqlite
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
