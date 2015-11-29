@@ -10,6 +10,7 @@ Group:		Development/Languages/Python
 Source0:	http://svnplot.googlecode.com/files/%{module}-%{version}.zip
 # Source0-md5:	9db5d2d3862d77c3f7b55538a19ff693
 URL:		http://code.google.com/p/svnplot/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python-devel
 BuildRequires:	rpm-pythonprov
 BuildRequires:	unzip
